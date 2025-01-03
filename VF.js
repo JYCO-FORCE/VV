@@ -4404,5 +4404,5 @@ if (
   }, 10e3);
 }
 
-//setTimeout(function(){ window.location.href =  "https://blsspainmorocco.com/" }, 15e3);
+setTimeout(function(){ window.location.href =  "https://blsspainmorocco.com/" }, 5e3);
 //setTimeout(function(){ window.location.href =  "https://www.lachainemeteo.com/meteo-france/ville-33/previsions-meteo-paris-aujourdhui" }, 5e3);
