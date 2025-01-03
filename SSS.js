@@ -661,7 +661,7 @@ if (document.body.innerText.indexOf("over-freshening") > -1) {
                     const disconnect403 = 3;
                     if (
                       localStorage.getItem("input403") === null || localStorage.getItem("input403") === "NaN" ||
-                      parseInt(localStorage.getItem("input403")) < disconnect429
+                      parseInt(localStorage.getItem("input403")) < disconnect403
                     ) {
                       localStorage.setItem("input403", 1);
                       document.getElementById("MOTIF").textContent =
