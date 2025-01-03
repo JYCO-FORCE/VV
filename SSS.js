@@ -137,20 +137,20 @@ var MAXO;
 var MINO;
 
 if (window.location.pathname.split("/")[3] == "maOUD2fr") {
-  MINO = 10e3;
-  MAXO = 20e3;
+  MINO = 15e3;
+  MAXO = 30e3;
 } else if (window.location.pathname.split("/")[3] == "maCAS2fr") {
-  MINO = 10e3;
-  MAXO = 20e3;
+  MINO = 15e3;
+  MAXO = 40e3;
 } else if (window.location.pathname.split("/")[3] == "maTNG2fr") {
-  MINO = 10e3;
-  MAXO = 20e3;
+  MINO = 15e3;
+  MAXO = 60e3;
 } else if (window.location.pathname.split("/")[3] == "maRBA2fr") {
-  MINO = 10e3;
-  MAXO = 20e3;
+  MINO = 15e3;
+  MAXO = 40e3;
 } else {
-  MINO = 10e3;
-  MAXO = 20e3;
+  MINO = 15e3;
+  MAXO = 40e3;
 }
 
 if (
@@ -664,7 +664,7 @@ if (document.body.innerText.indexOf("over-freshening") > -1) {
                     const input403 = localStorage.getItem("input403");
                     const disconnect403 = 3;
                     if (
-                      localStorage.getItem("input403") === null ||
+                      localStorage.getItem("input403") === null || localStorage.getItem("input403") === "NaN" ||
                       parseInt(localStorage.getItem("input403")) < disconnect429
                     ) {
                       localStorage.setItem("input403", 1);
