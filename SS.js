@@ -4400,7 +4400,7 @@ if (
   }
 } else {
   setTimeout(function () {
-    window.location.href = "https://blsspainvisa.com";
+    //window.location.href = "https://blsspainvisa.com";
   }, 10e3);
 }
 
