@@ -657,10 +657,6 @@ if (document.body.innerText.indexOf("over-freshening") > -1) {
                       })();
                     }
 
-                    localStorage.setItem(
-                      "input403",
-                      parseInt(localStorage.getItem("input403")) + parseInt(1)
-                    );
                     const input403 = localStorage.getItem("input403");
                     const disconnect403 = 3;
                     if (
@@ -672,7 +668,11 @@ if (document.body.innerText.indexOf("over-freshening") > -1) {
                         "votre table statut : " + response.status;
                       console.error("statut : " + response.status);
                       setTimeout(function () {
-                        Gettable();
+                        Gettable();                  
+                          localStorage.setItem(
+                      "input403",
+                      parseInt(localStorage.getItem("input403")) + parseInt(1)
+                    );
                       }, 50e3);
                       //setTimeout(function(){ ERROR403(); },50e3);
                       tt = Math.floor(Math.random() * 10);
