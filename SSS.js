@@ -137,20 +137,20 @@ var MAXO;
 var MINO;
 
 if (window.location.pathname.split("/")[3] == "maOUD2fr") {
-  MINO = 15e3;
-  MAXO = 30e3;
+  MINO = 10e3;
+  MAXO = 20e3;
 } else if (window.location.pathname.split("/")[3] == "maCAS2fr") {
-  MINO = 15e3;
-  MAXO = 40e3;
+  MINO = 10e3;
+  MAXO = 20e3;
 } else if (window.location.pathname.split("/")[3] == "maTNG2fr") {
-  MINO = 15e3;
-  MAXO = 60e3;
+  MINO = 10e3;
+  MAXO = 20e3;
 } else if (window.location.pathname.split("/")[3] == "maRBA2fr") {
-  MINO = 15e3;
-  MAXO = 40e3;
+  MINO = 10e3;
+  MAXO = 20e3;
 } else {
-  MINO = 15e3;
-  MAXO = 40e3;
+  MINO = 10e3;
+  MAXO = 20e3;
 }
 
 if (
